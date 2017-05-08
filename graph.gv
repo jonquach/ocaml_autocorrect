@@ -1,0 +1,61 @@
+graph G {
+node [shape=none]; {node [label="false"] f1; f2; f3; f4; f5; f6; f7; f8; f9; f10; f11; f12; f13; f14; f15; f16; f17; f18; f19; f20; f21; f22; f23; f24; f25; f26; f27; f28; f29; f30; f31; f32; f33; f34; f35; f36; f37; f38; }
+node [shape=none]; {node [label="true" fontcolor=blue] t1; t2; t3; t4; t5; t6; t7; t8; t9; t10; t11; t12; t13; t14; t15; t16; t17; t18; }
+
+f1 -- t1 [ label = "a" ];
+f1 -- f2 [ label = "<" ];
+f2 -- f3 [ label = "s" ];
+f3 -- t2 [ label = ">" ];
+f1 -- f4 [ label = "o" ];
+f4 -- f5 [ label = "b" ];
+f5 -- f6 [ label = "j" ];
+f6 -- f7 [ label = "e" ];
+f7 -- f8 [ label = "c" ];
+f8 -- f9 [ label = "t" ];
+f9 -- f10 [ label = "i" ];
+f10 -- f11 [ label = "v" ];
+f11 -- t3 [ label = "e" ];
+f1 -- f12 [ label = "f" ];
+f12 -- f13 [ label = "u" ];
+f13 -- f14 [ label = "t" ];
+f14 -- f15 [ label = "u" ];
+f15 -- f16 [ label = "r" ];
+f16 -- t4 [ label = "e" ];
+f1 -- f17 [ label = "b" ];
+f17 -- f18 [ label = "a" ];
+f18 -- f19 [ label = "c" ];
+f19 -- t5 [ label = "k" ];
+f17 -- t6 [ label = "e" ];
+f1 -- f20 [ label = "h" ];
+f20 -- f21 [ label = "a" ];
+f21 -- f22 [ label = "v" ];
+f22 -- t7 [ label = "e" ];
+f20 -- f23 [ label = "o" ];
+f23 -- f24 [ label = "p" ];
+f24 -- t8 [ label = "e" ];
+f1 -- f25 [ label = "d" ];
+f25 -- f26 [ label = "r" ];
+f26 -- f27 [ label = "e" ];
+f27 -- f28 [ label = "a" ];
+f28 -- t9 [ label = "m" ];
+t9 -- t10 [ label = "s" ];
+f1 -- f29 [ label = "r" ];
+f29 -- f30 [ label = "e" ];
+f30 -- f31 [ label = "a" ];
+f31 -- f32 [ label = "l" ];
+f32 -- f33 [ label = "i" ];
+f33 -- f34 [ label = "z" ];
+f34 -- t11 [ label = "e" ];
+f1 -- t12 [ label = "i" ];
+t12 -- t13 [ label = "s" ];
+t12 -- t14 [ label = "n" ];
+f1 -- f35 [ label = "m" ];
+f35 -- t15 [ label = "y" ];
+f1 -- f36 [ label = "t" ];
+f36 -- f37 [ label = "h" ];
+f37 -- f38 [ label = "a" ];
+f38 -- t16 [ label = "t" ];
+f37 -- t17 [ label = "e" ];
+f36 -- t18 [ label = "o" ];
+
+}
